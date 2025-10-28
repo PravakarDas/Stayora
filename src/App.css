@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+  .lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'Frieska';
+  src: url('/font/FRIESKA-demo-BF6486a3bec78fe.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.beau {
+  font-family: "Beau Rivage", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.eb{
+  font-family: "EB Garamond", serif;
+
+}
+.castoro {
+  font-family: "Castoro Titling", serif;
+ 
+
+}
+
+
+ .active{
+    text-decoration: wavy;
+    text-shadow: 2;
+    color: brown;
+    font-weight: 700;
+  }
+  
+/* From Uiverse.io by niat786 */ 
+.btn1 {
+  border-radius: .25rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+ 
+  height: 40px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: .2s .1s;
+  background-image: linear-gradient(90deg,#ac6f26,#000000);
+  border: 0 solid;
+  overflow: hidden;
+}
+
+.btn1:hover {
+  cursor: pointer;
+
+ font-weight: bold;
+}
+
+
+.btn2 {
+  border-radius: .25rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  
+  height: 40px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: .2s .1s;
+  background-image: linear-gradient(90deg,#000000,#ac6f26);
+  border: 0 solid;
+  overflow: hidden;
+}
+
+.btn2:hover {
+  cursor: pointer;
+
+ font-weight: bold;
+}
