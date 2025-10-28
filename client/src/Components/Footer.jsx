@@ -77,8 +77,8 @@ const Footer = () => {
     <div>
       <h2 class="text-xl font-semibold castoro mb-3">Contact Us</h2>
       <p class="font-bold castoro tracking-widest"><span className="beau text-[#ffbd59] font-extrabold text-3xl">A</span>urI<span className="beau font-extrabold text-[#ffbd59] text-3xl">S</span>  Hotel</p>
-      <p>Email: <a href="mailto:fahmidanimra@gmail.com" class="hover:underline">fahmidanimra@gmail.com</a></p>
-      <p>Phone: <a href="tel:01569029731" class="hover:underline">01569029731</a></p>
+      <p>Email: <a href="mailto:pravakar459@gmail.com" class="hover:underline">pravakar459@gmail.com</a></p>
+      <p>Phone: <a href="tel:+8801515675655" class="hover:underline">+8801515675655</a></p>
       
       <div class="mt-4">
         <h3 class="font-semibold mb-2">Follow Us</h3>

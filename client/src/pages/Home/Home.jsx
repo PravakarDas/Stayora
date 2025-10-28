@@ -163,7 +163,7 @@ const Home = () => {
     const [hotels, setHotels] = useState([]);
 
     useEffect(() => {
-        axios.get('https://hotel-server-side-mu.vercel.app/topratedhotels').then(res => {
+        axios.get('https://server-mu.vercel.app/topratedhotels').then(res => {
             const sliceData = res.data.slice(0, 8)
             setHotels(sliceData)
         }).catch(error => {

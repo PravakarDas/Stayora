@@ -23,7 +23,7 @@ const BookingsTableRow = ({ index, Booking, myBooking, setMyBookings }) => {
     e.preventDefault();
     const updatedDate = e.target.updatedDate.value;
 
-    axios.put(`https://hotel-server-side-mu.vercel.app/bookings/${roomId}`, {
+    axios.put(`https://server-mu.vercel.app/bookings/${roomId}`, {
       date: updatedDate,
     })
       .then((res) => {
@@ -68,7 +68,7 @@ const BookingsTableRow = ({ index, Booking, myBooking, setMyBookings }) => {
       roomId
     }
 
-    axios.post(`https://hotel-server-side-mu.vercel.app/reviews`, review).then(res => {
+    axios.post(`https://server-mu.vercel.app/reviews`, review).then(res => {
       if (res.data.insertedId) {
         Swal.fire({
           title: "Thanks for Sharing Your Thoughts!",
@@ -99,7 +99,7 @@ const BookingsTableRow = ({ index, Booking, myBooking, setMyBookings }) => {
       confirmButtonText: "Yes, cancel it!"
     }).then((result) => {
       if (result.isConfirmed) {
-        axios.delete(`https://hotel-server-side-mu.vercel.app/bookings/${roomId}?cancelDate=${cancelDate}&bookingDate=${date}`)
+        axios.delete(`https://server-mu.vercel.app/bookings/${roomId}?cancelDate=${cancelDate}&bookingDate=${date}`)
           .then(res => {
             Swal.fire({
               title: "Cancelled!",
@@ -110,7 +110,7 @@ const BookingsTableRow = ({ index, Booking, myBooking, setMyBookings }) => {
             const remainingBooking = myBooking.filter(book => book.roomId !== roomId);
             setMyBookings(remainingBooking)
 
-            axios.put(`https://hotel-server-side-mu.vercel.app/hotels/${roomId}`, {
+            axios.put(`https://server-mu.vercel.app/hotels/${roomId}`, {
               availability: true
             })
               .then(res => {

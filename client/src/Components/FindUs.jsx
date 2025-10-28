@@ -66,8 +66,8 @@ const FindUs = () => {
                   <div className="text-2xl mt-1">📞</div>
                   <div>
                     <div className="font-semibold  text-[#ffbd59] mb-1">Phone</div>
-                    <a href="tel:01569029731" className="text-white hover:text-[#ffbd59] transition-colors">
-                      01569029731
+                    <a href="tel:+8801515675655" className="text-white hover:text-[#ffbd59] transition-colors">
+                      +8801515675655
                     </a>
                   </div>
                 </div>
@@ -76,8 +76,8 @@ const FindUs = () => {
                   <div className="text-2xl mt-1">📧</div>
                   <div>
                     <div className="font-semibold text-[#ffbd59] mb-1">Email</div>
-                    <a href="mailto:fahmidanimra@gmail.com" className="text-white hover:text-[#ffbd59] transition-colors break-all">
-                      fahmidanimra@gmail.com
+                    <a href="mailto:pravakar459@gmail.com" className="text-white hover:text-[#ffbd59] transition-colors break-all">
+                      pravakar459@gmail.com
                     </a>
                   </div>
                 </div>
@@ -149,13 +149,13 @@ const FindUs = () => {
             
             <div className="flex flex-wrap justify-center gap-4 mt-8">
               <a 
-                href="tel:01569029731"
+                href="tel:+8801515675655"
                 className="bg-[#ffbd59] text-[#28140c] px-8 py-4 rounded-full font-bold hover:bg-white transition-all transform hover:scale-105 shadow-lg"
               >
                 📞 Call Now
               </a>
               <a 
-                href="mailto:fahmidanimra@gmail.com"
+                href="mailto:pravakar459@gmail.com"
                 className="bg-white text-[#28140c] px-8 py-4 rounded-full font-bold hover:bg-[#ffbd59] transition-all transform hover:scale-105 shadow-lg"
               >
                 📧 Send Email

@@ -69,7 +69,7 @@ const router = createBrowserRouter([
       },
       {
         path:'roomDetails/:id',
-        loader:({params})=>fetch(`https://hotel-server-side-mu.vercel.app/hotels/${params.id}`),
+        loader:({params})=>fetch(`https://server-mu.vercel.app/hotels/${params.id}`),
         element:<RoomDetails></RoomDetails>
       },
 

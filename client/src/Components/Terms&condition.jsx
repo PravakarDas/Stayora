@@ -306,20 +306,20 @@ const TermsAndCondition = () => {
 
             <div className="flex flex-wrap justify-center gap-4 mt-8">
               <motion.a
-                href="mailto:fahmidanimra@gmail.com"
+                href="mailto:pravakar459@gmail.com"
                 whileHover={{ scale: 1.05, rotate: 2 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-[#ffbd59] text-[#28140c] px-8 py-4 rounded-full font-bold hover:bg-white transition-all shadow-lg inline-flex items-center gap-2"
               >
-                📧 fahmidanimra@gmail.com
+                📧 pravakar459@gmail.com
               </motion.a>
               <motion.a
-                href="tel:01569029731"
+                href="tel:+8801515675655"
                 whileHover={{ scale: 1.05, rotate: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-[#28140c] px-8 py-4 rounded-full font-bold hover:bg-[#ffbd59] transition-all shadow-lg inline-flex items-center gap-2"
               >
-                📞 01569029731
+                📞 +8801515675655
               </motion.a>
             </div>
           </div>
